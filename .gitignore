@@ -21,3 +21,12 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# AI Interview specific
+src/assets/videos/*.mp4
+src/assets/images/*.jpg
+src/assets/images/*.png
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
