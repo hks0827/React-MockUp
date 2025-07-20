@@ -101,7 +101,6 @@ const WaitingRoomPage = () => {
             {/* 카메라 테스트 */}
             <TestCard>
               <TestHeader>
-                <TestIcon>📷</TestIcon>
                 <TestName>카메라 테스트</TestName>
                 <TestStatus active={cameraActive}>
                   {cameraActive ? '✅ 정상' : '⚪ 대기'}
@@ -134,7 +133,6 @@ const WaitingRoomPage = () => {
             {/* 마이크 테스트 */}
             <TestCard>
               <TestHeader>
-                <TestIcon>🎤</TestIcon>
                 <TestName>마이크 테스트</TestName>
                 <TestStatus active={microphoneActive}>
                   {microphoneActive ? '✅ 정상' : '⚪ 대기'}
@@ -166,7 +164,6 @@ const WaitingRoomPage = () => {
             {/* 스피커 테스트 */}
             <TestCard>
               <TestHeader>
-                <TestIcon>🔊</TestIcon>
                 <TestName>스피커 테스트</TestName>
                 <TestStatus active={speakerTested}>
                   {speakerTested ? '✅ 정상' : '⚪ 대기'}
